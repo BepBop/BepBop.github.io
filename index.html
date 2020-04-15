@@ -1,25 +1,18 @@
-
 <html>
-<meta charset="UTF-8">
 <head>
 <title>Hello, world!</title>
-</head>       
 <meta charset="utf-8">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-<meta name="viewport" content="width=device-width, initial-scale=0.75, shrink-to-fit=yes">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <style>
 #button
 {
-  background-color: white;
-  border: none;
-  color: white;
-  margin-left: 65%;
-  width: 95px;
-  height: 95px;
-  background-attachment: fixed;
+margin-top: 1%;
+margin-left: 65%;
+border: none;
+background-color: rgba(255, 255, 255, 0);
 }
 
 #pop
@@ -83,11 +76,13 @@ h2
   color: rgba(0, 0, 0, 0.775);
 }
 
+
+
 </style>
 <body>
 <div id="pop">
     <h1> Intro. </h1>
-    <h2> >Hello World</h2>
+    <h2> Hello World</h2>
 <p> I am fresher, persuing CSE. This is my monthy r&#233sum&#233. </p>
 <p>I have been working on inroducing myself to world of javascript via React and of course pushing this HTML/CSS/Bootstrap out, but sadly, ugh, thinking of dropping JS for couple of weeks in favour
 of "C" 101 </p>
@@ -95,18 +90,10 @@ of "C" 101 </p>
 <p> Well I am at intermediate level in C now and finally am picking JS & NodeJS back up </p>
 <div id="bluez">August_2019</div>   
 </div>
-<button id="button" onclick="topFunction()" title="Go to top"><img  src="https://i.imgur.com/ftTDP4F.png" class="img-fluid" alt="Responsive image"> </button>
+<button id="button" onclick="topFunction()" title="Go to top"><img  src="Untitled.png" class="float-right"  > </button>
 <script>
   var mybutton = document.getElementById("button");
   window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-  }
 
   function topFunction() {
     document.body.scrollTop = 0;
