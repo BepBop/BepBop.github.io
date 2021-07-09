@@ -1,0 +1,65 @@
+
+#button
+{
+cursor: pointer;
+margin-top: 0.5%;
+margin-left: 66.95%;
+margin-bottom: 0.5%;
+border: none;
+background-color: rgba(255, 255, 255, 0);
+}
+
+#pop
+{
+    border-style: solid;
+    border-width: 4px;
+    border-color:rgba(0, 0, 0, 0.775);
+    margin-top: 5%;
+    margin-bottom: 0%;
+    margin-right: 30%;
+    margin-left: 30%;
+    padding: 1.5%;
+  
+}
+
+
+@media only screen and (max-width: 1200px) 
+{
+#pop
+{
+  margin: 5% 20%;
+}
+}
+
+p
+{
+  font-size: 110%;
+  margin-top: 12.5%;  
+  margin-right: 22%;
+  margin-left: 22%;
+  text-align: left;
+  font-weight: 500;
+  font-kerning: normal;
+}
+
+#date
+{
+  text-align: center;
+  margin-left: 40%;
+  font-weight: 450;
+}
+
+
+h1 
+{
+  margin-left: 15px;
+  margin-top: 5px;
+  color: rgba(0, 0, 0, 0.750);
+}
+h2 
+{
+  margin-left: 15px;
+  margin-top: 5pxP;
+  color: rgba(0, 0, 0, 0.750);
+}
+
