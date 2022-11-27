@@ -1,0 +1,139 @@
+#skill {
+  font-family: IBM Plex Mono, monospace;
+  font-size: clamp(2.5rem, 5vw + .625rem, 5rem);
+  width: max-content;
+}
+
+.toy {
+  /*display: inline-block;*/
+  /*padding: 60px 80px;*/
+  padding: 30px;
+  font-family: IBM Plex Sana, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  border-top: 1px solid #C8C8C9;
+  /*border-right: 1px solid #C8C8C9;*/
+  /*flex-basis: -moz-available;*/
+  /*flex-basis: 25%;*/
+  height: 25%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  margin-bottom: 80px;
+
+}
+
+.toy button {
+  background: var(--green);
+  padding: 16px 32px;
+  width: max-content;
+
+}
+
+
+.parent-box- {
+  display: inline-flex;
+  flex-flow: row nowrap;
+  /*margin-top:80px;*/
+}
+
+.parent-box {
+  display: inline-flex;
+  flex-flow: row wrap;
+  /*flex-basis: 75%;*/
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 60px 30px 80px;
+  gap: 60px;
+
+
+
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+  border-color: #C8C8C9;
+  font-family: IBM Plex Sana, sans-serif;
+  flex: 1 1 340px;
+
+}
+
+#box-head {
+  /*padding: 0 60px;*/
+  font-size: 40px;
+}
+
+#box-para {
+  font-size: clamp(1.25rem, 0.2vw + 1.175rem, 1.5rem)
+}
+
+#year2 {
+  /*border-width: 1px 1px 0 1px;*/
+
+  /*border-style: solid;*/
+  /*background: #dbff00;*/
+  background: var(--green);
+  padding: 2.5%;
+
+  /*border-radius: 16px;*/
+
+  color: var(--black);
+  font-family: 'IBM Plex Mono', monospace;
+  font-size: 5vmax;
+  font-weight: 500;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: 4vw;
+  /*transform: rotate(4deg) translateX(-262px);*/
+  /*background: var(--blue);*/
+  margin: 25px 0;
+  overflow: auto;
+  /*width: max-content;*/
+}
+
+#year2:first-child {
+  /*width: max-content;*/
+  /*flex-grow: 1;*/
+  /*flex-shrink: 0;*/
+  /*margin-left: -75px;*/
+}
+
+#men {
+  margin-left: -200px;
+}
+
+
+@media (width <= 800px) {
+
+  .parent-box- {
+    flex-flow: row wrap;
+  }
+
+  .toy {
+    position: unset;
+    border-width: 0 0 0 0;
+    padding-left: 0;
+  }
+
+
+}
+
+#test {
+
+  width:100%;
+  height: 9vmax;
+  /*padding-top: 13.75%;*/
+  background-color: lawngreen;
+  overflow: clip;
+  background-image: url('../img/ab.svg');
+  background-repeat: repeat-x;
+  background-position-x:100px;
+  background-size: cover;
+}
+
+.test img {
+  transform: translateX(-100px);
+}

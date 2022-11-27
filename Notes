@@ -1,0 +1,101 @@
+<!--  <div class="sub-header">I'm a CS Grad who's deeply into frontend from UI to Deployment.Hello, I'm a web developer who-->
+  <!--    loves UI design. I'm passionate about creating beautiful and user-friendly interfaces. I believe that good design is-->
+  <!--    essential to creating a successful website. I strive to create websites that are both visually appealing and easy to-->
+  <!--    use. I'm always looking for new ways to improve my skills and I'm excited to learn more about UI design.-->
+
+
+.box {
+  border: 1px solid #222222;
+  padding:60px 30px 80px 30px;
+  display: inline-block;
+}
+
+#head {
+  padding-bottom: 60px;
+}
+
+#para {
+  max-width: 347px;
+}
+
+.toy {
+  width: 386px;
+  border-top: 1px solid #222222;
+}
+
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 60px 30px 80px;
+gap: 60px;
+
+position: absolute;
+width: 407px;
+height: 393px;
+left: 543px;
+top: 316px;
+
+border-width: 1px 0px 1px 1px;
+border-style: solid;
+border-color: #C8C8C9;
+
+
+#skill {
+  font-family: IBM Plex Mono, monospace;
+  font-size: clamp(2.5rem, 5vw + .625rem, 5rem);
+}
+
+.toy {
+  /*display: inline-block;*/
+  /*padding: 60px 80px;*/
+  padding: 60px;
+  font-family: IBM Plex Sana, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  /*flex-basis: -moz-available;*/
+  flex-basis: 25%;
+  height: 25%;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.toy button {
+  background: var(--green);
+  padding: 16px 32px;
+
+}
+
+
+.parent-box- {
+  display: flex;
+
+}
+
+.parent-box {
+  display: inline-flex;
+  flex-flow: row wrap;
+  flex-basis: 75%;
+}
+
+.box {
+  padding: 60px 30px 80px 30px;
+  /*display: inline-block;*/
+  font-family: IBM Plex Sana, sans-serif;
+  border-top: 1px solid #000;
+  border-right: 1px solid #000;
+  border-left: 1px solid #000;
+  flex-basis: 42%;
+}
+
+#box-head {
+  padding: 0 60px;
+  font-size: 40px;
+}
+
+#box-para {
+  font-size: 24px;
+}

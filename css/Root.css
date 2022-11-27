@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600;700&display=swap');
+
+:root {
+  --green: lawngreen;
+  --blue: mediumblue;
+  --white: #ffffff;
+  --black: #000000;
+}
+
+
+.flex-container {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  /*align-items: flex-start;*/
+  gap: 8px;
+}
+
+.flex {
+  display: flex;
+  flex-flow: row wrap;
+  gap: 48px;
+}
+
+.font-120 {
+  font-family: 'IBM Plex Mono', monospace;
+  font-weight: 500;
+  font-size: 104px;
+  color: var(--white);
+}
+
+/*body * div {*/
+/*  overflow: hidden;*/
+/*}*/
