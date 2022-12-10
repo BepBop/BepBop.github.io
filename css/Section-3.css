@@ -7,7 +7,7 @@
 .toy {
   /*display: inline-block;*/
   /*padding: 60px 80px;*/
-  padding: 30px;
+  /*padding: 30px;*/
   font-family: IBM Plex Sana, sans-serif;
   font-size: 24px;
   font-weight: 700;
@@ -19,7 +19,8 @@
   position: -webkit-sticky;
   position: sticky;
   top: 0;
-  margin-bottom: 80px;
+  padding: 50px 30px 120px 30px;
+  /*margin-bottom: 80px;*/
 
 }
 
@@ -27,7 +28,9 @@
   background: var(--green);
   padding: 16px 32px;
   width: max-content;
-
+  box-shadow: 0px 4px 12px 0px hsla(90, 100%, 49%, 0.2);
+  border: none;
+  border-radius: 8px;
 }
 
 
@@ -118,6 +121,18 @@
     padding-left: 0;
   }
 
+}
+@media (width <= 400px) {
+
+ .box {
+   gap:30px;
+   padding: 30px 30px 30px;
+ }
+
+ .parent-box
+ {
+   gap: 30px;
+ }
 
 }
 

@@ -2,6 +2,10 @@
   background: black;
 }
 
+#icon {
+  transition: all 1s;
+}
+
 .sticky {
   position: sticky;
   top: 0;
@@ -17,7 +21,7 @@
   flex-flow: row nowrap;
   gap: 4vw;
   transform: rotate(4deg) translateX(-107px);
-  background: lawngreen;
+  background: var(--green);
   padding: 25px 0;
   overflow: auto;
   width: calc(101% + 107px)
@@ -83,7 +87,7 @@
   flex-flow: row wrap;
   align-items: baseline;
   gap: 24px;
-  justify-content: center;
+  justify-content: space-around;
   padding-bottom: 80px;
 }
 
@@ -103,6 +107,7 @@
 }
 
 .project-para {
+  color: var(--white) !important;
   width: 80%;
 }
 
@@ -112,13 +117,20 @@
 
 .rectangle-3 {
   width: 80%;
-  height: 4px;
-  background: lawngreen;
+  height: 3px;
+  background: var(--white);
   margin-top: 32px;
 }
 
 #date {
   padding-top: 24px;
+  color: var(--white) !important;
+  /*display: flex;*/
+  /*justify-content: space-between;*/
+}
+
+a:link, a:visited, a:hover, a:active {
+  color: var(--white) !important;
 }
 
 .font-24 {
@@ -129,27 +141,28 @@
 
 .font-40 {
   /*font-weight: 500;*/
-  font-size: clamp(1.25rem, 2.5vw + .3125rem, 2rem);
-  color: lawngreen;
+  /*font-size: clamp(1.25rem, 2.5vw + .3125rem, 1.75rem);*/
+  font-size:1.5rem;
+  color: var(--green);
   font-family: IBM Plex Mono, monospace;
 }
 
 .font-64 {
   font-weight: 500;
   font-size: clamp(3.5rem, 2.666vw + 2.166rem, 4.5rem);
-  color: lawngreen;
+  color: var(--green);
 }
 
 .font-48 {
-  font-weight: 600;
+  font-weight: 550;
   font-size: clamp(2.25rem, 2vw + 1.5rem, 3.25rem);
-  color: lawngreen;
+  color: var(--green);
 }
 
 
 .font-24 {
   font-size: 24px;
-  color: lawngreen;
+  color: var(--green);
 }
 
 summary {
@@ -162,7 +175,6 @@ summary::-webkit-details-marker {
 
 #serial-number {
   font-family: 'IBM Plex Mono', monospace;
-  margin-right: 24px;
 }
 
 @media (width <= 800px) {
