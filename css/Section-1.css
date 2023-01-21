@@ -13,7 +13,7 @@
 }
 
 .grid {
-  display: grid;
+  display: inline-grid;
   grid-template-columns: repeat(12, 1fr);
   font-family: 'IBM Plex Sans', sans-serif;
   margin-top: 80px;
@@ -36,7 +36,7 @@
 
 .sub-header {
   font-weight: 400;
-  font-size: clamp(1.25rem, 2.5vw + 0.3125rem, 2.5rem);
+  font-size: clamp(1.25rem, 2vw + 0.3125rem, 2.5rem);
   /*text-transform: capitalize;*/
   grid-column: 1/8;
 }
@@ -46,6 +46,8 @@
   text-transform: uppercase;
   margin-top: -40px;
   grid-column: 1/13;
+  /*display: none;*/
+  background: rgba(255, 255, 0, 0.7);
 }
 
 .vertical-font-design {
@@ -135,6 +137,7 @@
 #one {
   /*margin-top: 160px;*/
   margin-top: clamp(7rem, 10vw + 1.25rem, 10rem);
+  gap:10px;
 }
 
 @media (width <= 1080px) {
