@@ -3,7 +3,7 @@
 }
 
 #icon {
-  transition: all 1s;
+  transition: all 120ms;
 }
 
 .sticky {
@@ -159,6 +159,9 @@ a:link, a:visited, a:hover, a:active {
   color: var(--green);
 }
 
+details[open] #icon {
+    transform: rotate(45deg);
+}
 
 .font-24 {
   font-size: 24px;
