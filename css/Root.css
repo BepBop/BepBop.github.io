@@ -30,6 +30,10 @@
   color: var(--white);
 }
 
+summary {
+  cursor: pointer;
+}
+
 /*body * div {*/
 /*  overflow: hidden;*/
 /*}*/

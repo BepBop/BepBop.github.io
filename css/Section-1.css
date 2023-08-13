@@ -36,7 +36,7 @@
 
 .sub-header {
   font-weight: 400;
-  font-size: clamp(1.25rem, 2vw + 0.3125rem, 2.5rem);
+  font-size: clamp(1rem, 2vw + 0.3125rem, 2.5rem);
   /*text-transform: capitalize;*/
   grid-column: 1/8;
 }
@@ -55,7 +55,7 @@
   font-family: 'IBM Plex Mono', monospace;
   font-weight: 500;
   font-size: clamp(5rem, 4vw + 3.4125rem, 6.5rem);
-  color: #4b4b4c3d;
+  color: rgba(75, 75, 88, 0.12);
   top: -16px;
   right: 0;
 }
@@ -68,7 +68,7 @@
 
 .line {
   width: 2px;
-  height: 68%;
+  height: 93%;
   background: #c8c8c9;
   /*margin-top: 40px;*/
   margin: 10% auto auto auto;
@@ -97,6 +97,7 @@
 .para {
   font-family: 'IBM Plex Sans', sans-serif !important;
   font-size: 20px;
+  line-height: 30px;
   padding-top: 32px;
 }
 
